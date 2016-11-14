@@ -1,0 +1,33 @@
+$ python3 freebora.py --help
+usage: freebora.py [-h] [-v] [--dest PATH] [--overwrite] [--cat NAME]
+                   [--list-sync NAME] [--fetch-sync NAME] [--fetch-async NAME]
+
+Download free ebooks from http://shop.oreilly.com/category/ebooks.do.
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -v, --verbose       Set more verbose (debugging) output.
+  --dest PATH         Destination folder path, for both the URL list and/or
+                      the downloaded PDFs. Will be created if not existing.
+  --overwrite         Overwrite previously created file(s), for both the URL
+                      list and/or downloaded PDFs.
+  --cat NAME          Category of ebooks, e.g. data (default), design, iot,
+                      python/programming, ...
+  --list-sync NAME    Collect URLs to be downloaded into given filename.
+  --fetch-sync NAME   Download URLs sequentially from given filename.
+  --fetch-async NAME  Download URLs in parallel from given filename.
+
+$ time python3 freebora.py -v --cat networking --dest networking --list-sync networking-urls.txt --fetch-async networking-urls.txt
+Created destination folder: "networking"
+http://shop.oreilly.com/category/ebooks/networking.do
+http://www.oreilly.com/webops-perf/free/files/network-automation-with-ansible.pdf
+http://www.oreilly.com/webops-perf/free/files/are-your-networks-ready-for-the-iot.pdf
+http://www.oreilly.com/iot/free/files/privacy-and-the-iot.pdf
+#urls found: 3
+saved networking/are-your-networks-ready-for-the-iot.pdf (1535446 bytes)
+saved networking/network-automation-with-ansible.pdf (3609541 bytes)
+saved networking/privacy-and-the-iot.pdf (12275926 bytes)
+
+real 0m34.093s
+user 0m1.259s
+sys  0m0.219s

@@ -1,0 +1,231 @@
+$ time python3 freebora.py -v --dest data --list-sync data-urls.txt
+Created destination folder: "data"
+http://shop.oreilly.com/category/ebooks/data.do
+http://www.oreilly.com/data/free/files/managing-the-data-lake.pdf
+http://www.oreilly.com/data/free/files/data-science-microsoft-ml-r-2015-update.pdf
+http://www.oreilly.com/data/free/files/private-and-open-data-asia.pdf
+http://www.oreilly.com/data/free/files/stratasurvey.pdf
+http://www.oreilly.com/data/free/files/what-is-data-science.pdf
+http://www.oreilly.com/data/free/files/last-mile-of-analytics.pdf
+http://www.oreilly.com/data/free/files/navigating-health-data-ecosystem.pdf
+http://www.oreilly.com/data/free/files/security-data-lake.pdf
+http://www.oreilly.com/data/free/files/data-jujitsu.pdf
+http://www.oreilly.com/data/free/files/planning-for-big-data.pdf
+http://www.oreilly.com/data/free/files/the-business-of-genomic-data.pdf
+http://www.oreilly.com/data/free/files/future-of-machine-intelligence.pdf
+http://www.oreilly.com/data/free/files/data-technology-future-of-play.pdf
+http://www.oreilly.com/data/free/files/data-science-banking-and-fintech.pdf
+http://www.oreilly.com/data/free/files/big-data-now-2015-edition.pdf
+http://www.oreilly.com/data/free/files/data-and-music.pdf
+http://www.oreilly.com/data/free/files/2015-data-science-salary-survey.pdf
+http://www.oreilly.com/data/free/files/mapping-big-data.pdf
+http://www.oreilly.com/data/free/files/evaluating-machine-learning-models.pdf
+http://www.oreilly.com/data/free/files/fashioning-data.pdf
+http://www.oreilly.com/data/free/files/data-and-finance.pdf
+http://www.oreilly.com/data/free/files/getting-analytics-right.pdf
+http://www.oreilly.com/data/free/files/architecting-data-lakes.pdf
+http://www.oreilly.com/data/free/files/self-service-analytics.pdf
+http://www.oreilly.com/data/free/files/ten-signs-of-data-science-maturity.pdf
+http://www.oreilly.com/data/free/files/data-and-electric-power.pdf
+http://www.oreilly.com/data/free/files/hadoop-what-you-need-to-know.pdf
+http://www.oreilly.com/data/free/files/going-pro-in-data-science.pdf
+http://www.oreilly.com/data/free/files/data-science-in-the-cloud.pdf
+http://www.oreilly.com/data/free/files/2016-data-science-salary-survey.pdf
+http://www.oreilly.com/data/free/files/architecting-for-access.pdf
+http://www.oreilly.com/data/free/files/reducing-risk-in-the-petroleum-industry.pdf
+http://www.oreilly.com/data/free/files/the-new-artificial-intelligence-market.pdf
+http://www.oreilly.com/data/free/files/in-search-of-database-nirvana.pdf
+http://www.oreilly.com/data/free/files/fast-data-enterprise-data-architecture.pdf
+http://www.oreilly.com/data/free/files/innovation-security-compliance-big-data.pdf
+http://www.oreilly.com/data/free/files/2014-data-science-salary-survey.pdf
+http://www.oreilly.com/data/free/files/fast-data-smart-and-at-scale.pdf
+http://www.oreilly.com/data/free/files/data-preparation-in-the-big-data-era.pdf
+http://www.oreilly.com/data/free/files/oil-gas-data.pdf
+http://www.oreilly.com/data/free/files/architecting-for-the-internet-of-things.pdf
+http://www.oreilly.com/data/free/files/hadoop-and-spark-performance-for-the-enterprise.pdf
+http://www.oreilly.com/data/free/files/ai-and-medicine.pdf
+http://www.oreilly.com/data/free/files/advancing-procurement-analytics.pdf
+http://www.oreilly.com/data/free/files/the-big-data-market.pdf
+http://www.oreilly.com/data/free/files/embedding-analytics-in-modern-applications.pdf
+http://www.oreilly.com/data/free/files/data-infrastructure-for-next-gen-finance.pdf
+http://www.oreilly.com/design/free/files/machine-learning-for-designers.pdf
+http://www.oreilly.com/design/free/files/startup-essentials.pdf
+http://www.oreilly.com/data/free/files/fast-data-front-ends-for-hadoop.pdf
+http://www.oreilly.com/data/free/files/what-is-database-design-anyway.pdf
+http://www.oreilly.com/data/free/files/educating-data.pdf
+http://www.oreilly.com/data/free/files/building-real-time-data-pipelines.pdf
+http://www.oreilly.com/data/free/files/data-science-microsoft-azure-ml-python.pdf
+http://www.oreilly.com/data/free/files/analyzing-data-in-the-internet-of-things.pdf
+http://www.oreilly.com/data/free/files/stream-processing.pdf
+http://www.oreilly.com/data/free/files/the-hadoop-performance-myth.pdf
+http://www.oreilly.com/data/free/files/big-data-now-2012.pdf
+http://www.oreilly.com/data/free/files/big-data-analytics-emerging-architecture.pdf
+http://www.oreilly.com/data/free/files/big-data-now-2014-edition.pdf
+http://www.oreilly.com/data/free/files/data-driven.pdf
+http://www.oreilly.com/data/free/files/data-emerging-trends-and-technologies.pdf
+http://www.oreilly.com/data/free/files/the-path-to-predictive-analytics-and-machine-learning.pdf
+http://www.oreilly.com/data/free/files/fast-data-architectures-for-streaming-applications.pdf
+http://www.oreilly.com/data/free/files/effective-multi-tenant-distributed-systems.pdf
+http://www.oreilly.com/data/free/files/the-global-impact-of-open-data.pdf
+http://www.oreilly.com/data/free/files/what-are-conversational-bots.pdf
+http://www.oreilly.com/data/free/files/getting-data-right.pdf
+http://www.oreilly.com/data/free/files/building-data-science-teams.pdf
+
+real 1m37.179s
+user 0m1.612s
+sys  0m0.209s
+
+
+$ time python3 freebora.py -v --dest data --fetch-sync data-urls.txt
+#URLs found: 69
+saved data/big-data-now-2014-edition.pdf (8501744 bytes)
+saved data/data-driven.pdf (17409270 bytes)
+saved data/data-emerging-trends-and-technologies.pdf (16363054 bytes)
+saved data/2016-data-science-salary-survey.pdf (11773582 bytes)
+saved data/architecting-for-access.pdf (29296879 bytes)
+saved data/reducing-risk-in-the-petroleum-industry.pdf (27697423 bytes)
+saved data/the-new-artificial-intelligence-market.pdf (18704776 bytes)
+saved data/in-search-of-database-nirvana.pdf (28076440 bytes)
+saved data/architecting-for-the-internet-of-things.pdf (27570051 bytes)
+saved data/hadoop-and-spark-performance-for-the-enterprise.pdf (2238993 bytes)
+saved data/ai-and-medicine.pdf (4202761 bytes)
+saved data/advancing-procurement-analytics.pdf (30875356 bytes)
+saved data/the-big-data-market.pdf (18295060 bytes)
+saved data/embedding-analytics-in-modern-applications.pdf (27264083 bytes)
+saved data/data-infrastructure-for-next-gen-finance.pdf (26973073 bytes)
+saved data/machine-learning-for-designers.pdf (17880089 bytes)
+saved data/the-business-of-genomic-data.pdf (10865892 bytes)
+saved data/future-of-machine-intelligence.pdf (1768369 bytes)
+saved data/data-technology-future-of-play.pdf (31348 bytes)
+saved data/data-science-banking-and-fintech.pdf (13739635 bytes)
+saved data/big-data-now-2015-edition.pdf (15668370 bytes)
+saved data/startup-essentials.pdf (14028743 bytes)
+saved data/data-and-music.pdf (13245666 bytes)
+saved data/2015-data-science-salary-survey.pdf (4977148 bytes)
+saved data/mapping-big-data.pdf (32620533 bytes)
+saved data/evaluating-machine-learning-models.pdf (3829480 bytes)
+saved data/fashioning-data.pdf (3592225 bytes)
+saved data/data-and-finance.pdf (31348 bytes)
+saved data/planning-for-big-data.pdf (8162868 bytes)
+saved data/getting-analytics-right.pdf (12533377 bytes)
+saved data/architecting-data-lakes.pdf (10244899 bytes)
+saved data/self-service-analytics.pdf (11570886 bytes)
+saved data/ten-signs-of-data-science-maturity.pdf (11102472 bytes)
+saved data/data-and-electric-power.pdf (12607775 bytes)
+saved data/hadoop-what-you-need-to-know.pdf (10430564 bytes)
+saved data/going-pro-in-data-science.pdf (11498522 bytes)
+saved data/managing-the-data-lake.pdf (3046757 bytes)
+saved data/data-science-microsoft-ml-r-2015-update.pdf (21993092 bytes)
+saved data/private-and-open-data-asia.pdf (10764167 bytes)
+saved data/fast-data-front-ends-for-hadoop.pdf (15915162 bytes)
+saved data/what-is-database-design-anyway.pdf (10166467 bytes)
+saved data/educating-data.pdf (15373833 bytes)
+saved data/building-real-time-data-pipelines.pdf (19526244 bytes)
+saved data/building-data-science-teams.pdf (2811316 bytes)
+saved data/the-path-to-predictive-analytics-and-machine-learning.pdf (37718505 bytes)
+saved data/fast-data-architectures-for-streaming-applications.pdf (30754767 bytes)
+saved data/effective-multi-tenant-distributed-systems.pdf (35795331 bytes)
+saved data/the-global-impact-of-open-data.pdf (40268448 bytes)
+saved data/what-are-conversational-bots.pdf (3164183 bytes)
+saved data/getting-data-right.pdf (28617831 bytes)
+saved data/fast-data-smart-and-at-scale.pdf (3793252 bytes)
+saved data/data-preparation-in-the-big-data-era.pdf (2866786 bytes)
+saved data/big-data-analytics-emerging-architecture.pdf (6767759 bytes)
+saved data/data-science-in-the-cloud.pdf (3351446 bytes)
+saved data/stratasurvey.pdf (3191922 bytes)
+saved data/big-data-now-2012.pdf (8964572 bytes)
+saved data/what-is-data-science.pdf (27706309 bytes)
+saved data/data-jujitsu.pdf (3562948 bytes)
+saved data/fast-data-enterprise-data-architecture.pdf (4660427 bytes)
+saved data/innovation-security-compliance-big-data.pdf (3361135 bytes)
+saved data/2014-data-science-salary-survey.pdf (5477083 bytes)
+saved data/last-mile-of-analytics.pdf (3193664 bytes)
+saved data/navigating-health-data-ecosystem.pdf (2336342 bytes)
+saved data/security-data-lake.pdf (3022648 bytes)
+saved data/data-science-microsoft-azure-ml-python.pdf (17104538 bytes)
+saved data/analyzing-data-in-the-internet-of-things.pdf (26961673 bytes)
+saved data/stream-processing.pdf (59234743 bytes)
+saved data/the-hadoop-performance-myth.pdf (13408447 bytes)
+saved data/oil-gas-data.pdf (2638381 bytes)
+
+real 4m58.229s
+user 0m11.919s
+sys  0m5.379s
+
+
+$ time python3 freebora.py -v --dest data --fetch-async data-urls.txt --overwrite
+#URLs found: 69
+saved data/hadoop-and-spark-performance-for-the-enterprise.pdf (2238993 bytes)
+saved data/big-data-now-2014-edition.pdf (8501744 bytes)
+saved data/2016-data-science-salary-survey.pdf (11773582 bytes)
+saved data/the-new-artificial-intelligence-market.pdf (18704776 bytes)
+saved data/data-driven.pdf (17409270 bytes)
+saved data/data-emerging-trends-and-technologies.pdf (16363054 bytes)
+saved data/architecting-for-access.pdf (29296879 bytes)
+saved data/in-search-of-database-nirvana.pdf (28076440 bytes)
+saved data/architecting-for-the-internet-of-things.pdf (27570051 bytes)
+saved data/reducing-risk-in-the-petroleum-industry.pdf (27697423 bytes)
+saved data/data-technology-future-of-play.pdf (31348 bytes)
+saved data/future-of-machine-intelligence.pdf (1768369 bytes)
+saved data/ai-and-medicine.pdf (4202761 bytes)
+saved data/the-business-of-genomic-data.pdf (10865892 bytes)
+saved data/data-science-banking-and-fintech.pdf (13739635 bytes)
+saved data/machine-learning-for-designers.pdf (17880089 bytes)
+saved data/the-big-data-market.pdf (18295060 bytes)
+saved data/embedding-analytics-in-modern-applications.pdf (27264083 bytes)
+saved data/data-infrastructure-for-next-gen-finance.pdf (26973073 bytes)
+saved data/advancing-procurement-analytics.pdf (30875356 bytes)
+saved data/data-and-finance.pdf (31348 bytes)
+saved data/fashioning-data.pdf (3592225 bytes)
+saved data/evaluating-machine-learning-models.pdf (3829480 bytes)
+saved data/2015-data-science-salary-survey.pdf (4977148 bytes)
+saved data/planning-for-big-data.pdf (8162868 bytes)
+saved data/getting-analytics-right.pdf (12533377 bytes)
+saved data/data-and-music.pdf (13245666 bytes)
+saved data/startup-essentials.pdf (14028743 bytes)
+saved data/big-data-now-2015-edition.pdf (15668370 bytes)
+saved data/mapping-big-data.pdf (32620533 bytes)
+saved data/managing-the-data-lake.pdf (3046757 bytes)
+saved data/architecting-data-lakes.pdf (10244899 bytes)
+saved data/hadoop-what-you-need-to-know.pdf (10430564 bytes)
+saved data/self-service-analytics.pdf (11570886 bytes)
+saved data/going-pro-in-data-science.pdf (11498522 bytes)
+saved data/ten-signs-of-data-science-maturity.pdf (11102472 bytes)
+saved data/private-and-open-data-asia.pdf (10764167 bytes)
+saved data/data-and-electric-power.pdf (12607775 bytes)
+saved data/fast-data-front-ends-for-hadoop.pdf (15915162 bytes)
+saved data/data-science-microsoft-ml-r-2015-update.pdf (21993092 bytes)
+saved data/fast-data-architectures-for-streaming-applications.pdf (30754767 bytes)
+saved data/building-data-science-teams.pdf (2811316 bytes)
+saved data/what-are-conversational-bots.pdf (3164183 bytes)
+saved data/what-is-database-design-anyway.pdf (10166467 bytes)
+saved data/educating-data.pdf (15373833 bytes)
+saved data/building-real-time-data-pipelines.pdf (19526244 bytes)
+saved data/getting-data-right.pdf (28617831 bytes)
+saved data/fast-data-architectures-for-streaming-applications.pdf (30754767 bytes)
+saved data/the-path-to-predictive-analytics-and-machine-learning.pdf (37718505 bytes)
+saved data/effective-multi-tenant-distributed-systems.pdf (35795331 bytes)
+saved data/the-global-impact-of-open-data.pdf (40268448 bytes)
+saved data/stratasurvey.pdf (3191922 bytes)
+saved data/innovation-security-compliance-big-data.pdf (3361135 bytes)
+saved data/data-science-in-the-cloud.pdf (3351446 bytes)
+saved data/data-preparation-in-the-big-data-era.pdf (2866786 bytes)
+saved data/data-jujitsu.pdf (3562948 bytes)
+saved data/fast-data-smart-and-at-scale.pdf (3793252 bytes)
+saved data/fast-data-enterprise-data-architecture.pdf (4660427 bytes)
+saved data/big-data-analytics-emerging-architecture.pdf (6767759 bytes)
+saved data/big-data-now-2012.pdf (8964572 bytes)
+saved data/what-is-data-science.pdf (27706309 bytes)
+saved data/navigating-health-data-ecosystem.pdf (2336342 bytes)
+saved data/security-data-lake.pdf (3022648 bytes)
+saved data/oil-gas-data.pdf (2638381 bytes)
+saved data/last-mile-of-analytics.pdf (3193664 bytes)
+saved data/2014-data-science-salary-survey.pdf (5477083 bytes)
+saved data/the-hadoop-performance-myth.pdf (13408447 bytes)
+saved data/data-science-microsoft-azure-ml-python.pdf (17104538 bytes)
+saved data/analyzing-data-in-the-internet-of-things.pdf (26961673 bytes)
+saved data/stream-processing.pdf (59234743 bytes)
+
+real 3m33.232s
+user 0m34.796s
+sys  0m6.812s
