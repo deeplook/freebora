@@ -1,0 +1,9 @@
+recursive-include docs/sessions session[1-3]*.txt
+# include CHANGELOG.txt CONTRIBUTORS.txt
+include LICENSE.txt
+include README.rst
+include requirements.txt requirements-dev.txt
+include runtests.py
+include tox.ini
+recursive-include tests test_*.py
+recursive-exclude tests _test_*.py

@@ -1,4 +1,4 @@
-$ python3 freebora.py --help
+$ freebora --help
 usage: freebora.py [-h] [-v] [--dest PATH] [--overwrite] [--cat NAME]
                    [--list-sync NAME] [--fetch-sync NAME] [--fetch-async NAME]
 
@@ -17,7 +17,7 @@ optional arguments:
   --fetch-sync NAME   Download URLs sequentially from given filename.
   --fetch-async NAME  Download URLs in parallel from given filename.
 
-$ time python3 freebora.py -v --cat networking --dest networking --list-sync networking-urls.txt --fetch-async networking-urls.txt
+$ time freebora -v --cat networking --dest networking --list-sync networking-urls.txt --fetch-async networking-urls.txt
 Created destination folder: "networking"
 http://shop.oreilly.com/category/ebooks/networking.do
 http://www.oreilly.com/webops-perf/free/files/network-automation-with-ansible.pdf
