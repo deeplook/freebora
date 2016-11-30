@@ -42,7 +42,7 @@ You can run the (pretty small) test suite like this:
     # using py.test (needs a pip install pytest):
     py.test tests
 
-    # using a minified version of py.test, included in ``runtests.py``:
+    # using a minified version of py.test, included in runtests.py:
     python3 setup.py test
 
 Individual tests can be run like this:
