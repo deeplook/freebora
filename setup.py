@@ -45,10 +45,10 @@ setup(
     cmdclass = {'test': PyTest},
     classifiers=[
         'Development Status :: 3 - Alpha',
+        'Environment :: Console',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
-        'Intended Audience :: Developers',
         'Intended Audience :: Education',
         'Intended Audience :: End Users/Desktop',
         'Intended Audience :: Information Technology',
