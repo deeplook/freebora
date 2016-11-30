@@ -12,6 +12,33 @@ from lxml import etree
 
 # sequential
 
+def get_cats_sync(full_urls=False, verbose=False):
+    "Generate category URLs for free O'Reilly ebooks."
+
+    base_url = 'http://shop.oreilly.com'
+    url = base_url + '/category/ebooks.do'
+    if verbose:
+        print(url)
+    p = etree.HTMLParser()
+    tree = etree.parse(url, parser=p)
+    xpath_expr = '//a[starts-with(@href, "/category/ebooks/")]/@href'
+    cat_urls = tree.xpath(xpath_expr)
+    cat_urls = [base_url + u for u in cat_urls if u.endswith('.do')]
+    for u in cat_urls:
+        if verbose:
+            print(u)
+        tree1 = etree.parse(u, parser=p)
+        urls = tree1.xpath(xpath_expr)
+        for u in urls:
+            if not u.endswith('.do'):
+                continue
+            if full_urls:
+                yield base_url + u
+            else:
+                pat = 'category/ebooks/(.*?).do'
+                yield re.findall(pat, u)[0]
+
+
 def download_filelist_sync(cat, verbose=False):
     "Generate URLs for free O'Reilly ebooks in PDF format."
 

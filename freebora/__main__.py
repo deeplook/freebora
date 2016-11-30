@@ -12,11 +12,11 @@ import argparse
 
 if sys.version_info.major >= 3:
     from freebora.freebora import download_filelist_sync, \
-        download_files_sync, download_files_async
+        download_files_sync, download_files_async, get_cats_sync
 else:
     # Python 2 not really supported, yet
     from freebora import download_filelist_sync, download_files_sync, \
-        download_files_async
+        download_files_async, get_cats_sync
 
 
 def main():
@@ -33,8 +33,11 @@ def main():
         help='Overwrite previously created file(s), for both the URL '
              'list and/or downloaded PDFs.')
     p.add_argument('--cat', metavar='NAME', default='data',
-        help='Category of ebooks, e.g. data (default), design, iot, '\
-             'python/programming, ...')
+        help='Category of ebooks to download, e.g. data (default), '\
+             'design, iot, python/programming, ... Get a full list '\
+             'with --list-cats-sync.')
+    p.add_argument('--list-cats-sync', action='store_true',
+        help='Collect and list available ebook category names (to use with --cat).')
     p.add_argument('--list-sync', metavar='NAME',
         help='Collect URLs to be downloaded into given filename.')
     p.add_argument('--fetch-sync', metavar='NAME',
@@ -52,6 +55,11 @@ def main():
             created = True
         if args.verbose and os.path.exists(args.dest) and created:
             print('Created destination folder: "%s"' % args.dest)
+
+    # Get list of free ebook categories.
+    if args.list_cats_sync:
+        for cat in get_cats_sync(full_urls=False, verbose=args.verbose):
+            print(cat)
 
     # Get list of URLs for free ebooks.
     if args.list_sync:
