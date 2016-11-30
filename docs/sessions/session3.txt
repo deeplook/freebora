@@ -1,4 +1,4 @@
-$ time freebora -v --cat programming/python --dest programming-python --list-sync programming-python--urls.txt --fetch-async programming-python--urls.txt
+$ time freebora -v --cat programming/python --dest programming-python --list-sync programming-python-urls.txt --fetch-async programming-python-urls.txt
 Created destination folder: "programming-python"
 http://shop.oreilly.com/category/ebooks/programming/python.do
 http://www.oreilly.com/programming/free/files/from-future-import-python.pdf
