@@ -58,5 +58,4 @@ Todo
 - add an async version of the function to collect URLs (step 1 above)
 - improve command-line interface
 - add feature to download not only PDFs, but other formats, too
-- add feature to list all available ebook category names
 - add a proper version number
