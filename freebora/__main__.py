@@ -10,6 +10,7 @@ import os
 import sys
 import argparse
 
+from freebora.version import __version__
 if sys.version_info.major >= 3:
     from freebora.freebora import download_filelist_sync, \
         download_files_sync, download_files_async, get_cats_sync
@@ -26,6 +27,8 @@ def main():
 
     p.add_argument('-v', '--verbose', action='store_true',
         help='Set more verbose (debugging) output.')
+    p.add_argument('-V', '--version', action='store_true',
+        help='Show version number and quit.')
     p.add_argument('--dest', metavar='PATH', default='.',
         help='Destination folder path, for both the URL list and/or the '
              'downloaded PDFs. Will be created if not existing.')
@@ -46,6 +49,10 @@ def main():
         help='Download URLs in parallel from given filename.')
 
     args = p.parse_args()
+
+    if args.version:
+        print('Freebora version %s' % __version__)
+        sys.exit()
 
     # Create destination folder if needed.
     if args.dest != '.':

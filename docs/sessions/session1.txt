@@ -1,21 +1,183 @@
 $ freebora --help
-usage: freebora.py [-h] [-v] [--dest PATH] [--overwrite] [--cat NAME]
-                   [--list-sync NAME] [--fetch-sync NAME] [--fetch-async NAME]
+usage: freebora [-h] [-v] [-V] [--dest PATH] [--overwrite] [--cat NAME]
+                [--list-cats-sync] [--list-sync NAME] [--fetch-sync NAME]
+                [--fetch-async NAME]
 
 Download free ebooks from http://shop.oreilly.com/category/ebooks.do.
 
 optional arguments:
   -h, --help          show this help message and exit
   -v, --verbose       Set more verbose (debugging) output.
+  -V, --version       Show version number and quit.
   --dest PATH         Destination folder path, for both the URL list and/or
                       the downloaded PDFs. Will be created if not existing.
   --overwrite         Overwrite previously created file(s), for both the URL
                       list and/or downloaded PDFs.
-  --cat NAME          Category of ebooks, e.g. data (default), design, iot,
-                      python/programming, ...
+  --cat NAME          Category of ebooks to download, e.g. data (default),
+                      design, iot, python/programming, ... Get a full list
+                      with --list-cats-sync.
+  --list-cats-sync    Collect and list available ebook category names (to use
+                      with --cat).
   --list-sync NAME    Collect URLs to be downloaded into given filename.
   --fetch-sync NAME   Download URLs sequentially from given filename.
   --fetch-async NAME  Download URLs in parallel from given filename.
+
+$ freebora --list-cats-sync
+apple-mac
+apple-mac/apple-apps
+apple-mac/apple-programming
+apple-mac/ios-programming
+apple-mac/ipad-iphone-ipod
+apple-mac/mac
+apps-software
+apps-software/apple-apps
+apps-software/design-apps
+apps-software/office-sharepoint
+apps-software/photo-apps
+apps-software/web-mobile-apps
+digital-audio-video
+digital-audio-video/digital-audio
+digital-audio-video/digital-video
+business
+business/accounting-finance
+business/agile
+business/business-management
+business/career-development
+business/entrepreneurship
+business/it-leadership
+business/project-management
+business/sales-marketing
+business/society-culture
+certification-training
+certification-training/cisco-certification
+certification-training/linux-certification
+certification-training/microsoft-certification-training
+certification-training/pmp
+certification-training/other-certification---certification---ebooks
+data
+data/data-analysis-visualization
+data/data-topics
+data/non-relational-databases
+data/relational-databases
+data/oracle
+data/sas
+data/sql-server
+design
+design/animation
+design/design-apps
+design/digital-publishing
+design/game-design
+design/information-architecture
+design/mobile-design
+design/prod-design
+design/user-experience
+design/web-design
+science-math
+science-math/bioinformatics
+science-math/electrical-engineering
+science-math/hardware-engineering
+science-math/math
+science-math/science
+health
+health/cancer
+health/disorders-diseases
+health/health-it
+health/mind-body
+iot
+iot/electronics
+iot/lego-robotics
+iot/diy-projects
+iot/hardware-hacking
+iot/make-craft
+microsoft
+microsoft
+microsoft/business-solutions
+microsoft/certification-training
+microsoft/servers
+microsoft/software-development
+microsoft/webdesign
+microsoft/office-sharepoint
+microsoft/wi
+microsoft/wi
+microsoft/wi
+microsoft/wi
+mobile-devices
+mobile-devices/android
+mobile-devices/ipad-iphone-ipod
+mobile-devices/kindle
+mobile-devices/nook
+mobile-devices/wi
+mobile-devices/other-devices
+networking
+networking/cisco
+networking/cloud-network-security
+networking/home-networking
+networking/network-administration
+networking/networking-topics
+personal-computing
+personal-computing/home-networking
+personal-computing/mac
+personal-computing/pc
+personal-computing/wi
+personal-growth
+personal-growth/business-management-leadership
+personal-growth/career-development
+personal-growth/mind-body
+personal-growth/personal-finance
+digital-photography
+digital-photography/camera-guides
+digital-photography/digital-photography
+digital-photography/photoshop
+programming
+programming
+programming/agile
+programming/android-programming
+programming/apple-programming
+programming/c
+programming/csharp
+programming/design-patterns
+programming/game-design
+programming/graphics-multimedia-programming
+programming/ios-programming
+programming/java
+programming/javascript
+programming/mobile-design
+programming/perl
+programming/php
+programming/python
+programming/r
+programming/ruby
+programming/secure-programming
+programming/software-engineering
+programming/testing
+programming/wi
+programming/other-programming-languages
+security
+security/cloud-network-security
+security/computer-security
+security/cryptography
+security/secure-programming
+system-administration
+system-administration/cloud-administration
+system-administration/email-administration
+system-administration/linux-unix
+system-administration/microsoft-servers
+system-administration/performance
+system-administration/system-admin-ops
+system-administration/wi
+tech-culture
+tech-culture/game-strategy
+tech-culture/tech-culture
+web-development
+web-development/html-css
+web-development/javascript
+web-development/performance
+web-development/php
+web-development/ruby-rails
+web-development/sem-%26-seo
+web-development/web-content-management
+web-development/web-design
+web-development/web-development
 
 $ time freebora -v --cat networking --dest networking --list-sync networking-urls.txt --fetch-async networking-urls.txt
 Created destination folder: "networking"

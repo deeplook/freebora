@@ -5,6 +5,8 @@ Freebora: fetch free ebooks from O'Reilly online shop.
 from setuptools import find_packages, setup
 import distutils.core
 
+from freebora.version import __version__
+
 
 class PyTest(distutils.core.Command):
     user_options = []
@@ -28,7 +30,7 @@ def get_dependencies(filename):
 
 setup(
     name='freebora',
-    version='0.1.0',
+    version=__version__,
     url='https://github.com/deeplook/freebora/',
     license='GPL3',
     author='Dinu Gherman',
