@@ -26,10 +26,10 @@ See the files ``session1.txt``, ``session2.txt`` and ``session3.txt`` in the
 Installation
 ------------
 
-You can install ``freebora`` after cloning or downloading this code from
+You can install ``freebora`` with a simple ``pip install freebora`` from
+the Python Package Index, or after cloning or downloading this code from
 GitHub and running ``python3 setup.py install`` in its root directory.
-Later you will also be able to do that from the Python Package Index (PyPI)
-using ``pip install freebora``.
+At the moment it is intended to work only on Python 3.
 
 
 Tests
@@ -40,7 +40,7 @@ You can run the (pretty small) test suite like this:
 .. code-block:: console
 
     # using py.test (needs a pip install pytest):
-    py.test tests
+    py.test -v tests
 
     # using a minified version of py.test, included in runtests.py:
     python3 setup.py test
@@ -58,4 +58,4 @@ Todo
 - add an async version of the function to collect URLs (step 1 above)
 - improve command-line interface
 - add feature to download not only PDFs, but other formats, too
-- add a proper version number
+- add feature to interactively select individual ebooks to download
