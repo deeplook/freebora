@@ -11,3 +11,10 @@ Released December 15th 2016
 - First release on PyPI.
 - List all categories of available ebooks.
 - Download entire categories of free ebooks.
+
+Version 0.1.1
+-------------
+
+Not released, yet
+
+- Minor changes in the README.
