@@ -51,7 +51,7 @@ def main():
     args = p.parse_args()
 
     if args.version:
-        print('Freebora version %s' % __version__)
+        print('Freebora version {0!s}'.format(__version__))
         sys.exit()
 
     # Create destination folder if needed.
@@ -61,7 +61,7 @@ def main():
             os.makedirs(args.dest, exist_ok=True)
             created = True
         if args.verbose and os.path.exists(args.dest) and created:
-            print('Created destination folder: "%s"' % args.dest)
+            print('Created destination folder: "{0!s}"'.format(args.dest))
 
     # Get list of free ebook categories.
     if args.list_cats_sync:
@@ -74,7 +74,7 @@ def main():
         if not os.path.exists(path) or args.overwrite:
             for url in  download_filelist_sync(cat=args.cat, verbose=args.verbose):
                 with open(path, 'a') as f:
-                    f.write('%s\n' % url)
+                    f.write('{0!s}\n'.format(url))
 
     # Fetch PDFs for given URLs.
     if args.fetch_sync or args.fetch_async:
@@ -83,7 +83,7 @@ def main():
         elif args.fetch_async:
             path = args.fetch_async
         urls = open(os.path.join(args.dest, path)).read().strip().split('\n')
-        print('#URLs found: %d' % len(urls))
+        print('#URLs found: {0:d}'.format(len(urls)))
 
         if args.fetch_sync:
             f = download_files_sync
