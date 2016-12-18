@@ -8,7 +8,7 @@ def test_networking():
 
     dest = os.path.join(os.path.dirname(__file__), 'ebooks')
     cat = 'networking'
-    urls_path = '%s/%s-urls.txt' % (dest, cat)
+    urls_path = '{0!s}/{1!s}-urls.txt'.format(dest, cat)
     verbose = True
 
     # Create destination folder if needed.
@@ -17,7 +17,7 @@ def test_networking():
     # Get list of URLs for free ebooks.
     for url in freebora.download_filelist_sync(cat=cat, verbose=verbose):
         with open(urls_path, 'a') as f:
-            f.write('%s\n' % url)
+            f.write('{0!s}\n'.format(url))
 
     # Fetch PDFs for given URLs.
     urls = open(urls_path).read().strip().split('\n')
