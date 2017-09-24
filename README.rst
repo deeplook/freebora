@@ -5,16 +5,16 @@ Fetch Free O'Reilly eBooks
     :width: 100 %
     :align: center
 		    
-This is a tool for downloading free O'Reilly ebooks of different categories,
-from the `O'Reilly Online Shop`_.
-While you can, of course, download these free ebooks directly from the
-the online shop, it's not exactly easy to spot them there among all other
-ebooks, or download a whole bunch of them.
+This is a tool for downloading `free O'Reilly ebooks`_ of different categories
+from the remains of what used to be the O'Reilly online shop (before it morphed
+into a book and video streaming service).
+While you can, of course, download these free ebooks directly online, it's not
+exactly easy to download a whole bunch of them more quickly.
 
 ``freebora`` does not use ``scrapy`` on purpose (partly to avoid a
 configuration fest), but works in two phases:
 
-1. crawl the online shop to compile a list of URLs for PDF files
+1. crawl the online site to compile a list of URLs for PDF files
    to download, and
 2. download all files from the list created in 1.
 
@@ -64,6 +64,6 @@ Todo
 - add feature to interactively select individual ebooks to download
 
 
-.. _O'Reilly Online Shop: http://shop.oreilly.com/category/ebooks.do
+.. _free O'Reilly ebooks: http://www.oreilly.com/free/
 .. _Python Package Index: https://pypi.python.org/pypi/freebora
 .. _GitHub: https://github.com/deeplook/freebora
